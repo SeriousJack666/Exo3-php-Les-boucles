@@ -1,0 +1,28 @@
+
+
+
+.wrapper {
+	background-color: hsla(0, 0%, 0%, 0.42);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.wrapper > div { 
+
+	background-color: hsla(360, 100%, 100%, 0.18);
+	border-radius: 40px;
+	border: 2px solid rgba(138, 130, 61, 1);
+	margin: 30px 15px;
+}
+
+h1 { 
+	color: rgba(138, 130, 61, 1);
+	margin: 30px 15px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin: 15px  15px;
+}
